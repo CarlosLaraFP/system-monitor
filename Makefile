@@ -22,3 +22,5 @@ debug:
 .PHONY: clean
 clean:
 	rm -rf build
+
+CXXFLAGS = -Wall -Wextra -pedantic
